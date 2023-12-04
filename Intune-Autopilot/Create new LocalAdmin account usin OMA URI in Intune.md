@@ -12,9 +12,10 @@
 
 
 ## 3. OMA-URI settings to Add to Local Admin Group
-###     3.1 Name: Add to Local Admin Group
-    ```Powershell
-    ./Device/Vendor/MSFT/Accounts/Users/localadmin/LocalUserGroup
-    ```
-###     3.2 Data Type "Integer"
-###     3.3 Value = "2"
+1. Name: Add to Local Admin Group
+2. OMA-URI
+```Powershell
+./Device/Vendor/MSFT/Accounts/Users/localadmin/LocalUserGroup
+```
+3. Data Type "Integer"
+4. Value = "2"
