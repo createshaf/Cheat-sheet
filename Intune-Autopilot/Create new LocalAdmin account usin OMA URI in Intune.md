@@ -1,6 +1,6 @@
 # Create new LocalAdmin account usin OMA URI in Intune
-## 1. Devices > Configuration Settings > Create new > Custom
-## 2. OMA-URI Settings for Local account as below
+## Devices > Configuration Settings > Create new > Custom
+## OMA-URI Settings for Local account as below
 1. Name: Local Admin Account
 2. OMA-URI
 ```Powershell
@@ -11,7 +11,7 @@
 5. Value "password"
 
 
-## 3. OMA-URI settings to Add to Local Admin Group
+## OMA-URI settings to Add to Local Admin Group
 1. Name: Add to Local Admin Group
 2. OMA-URI
 ```Powershell
