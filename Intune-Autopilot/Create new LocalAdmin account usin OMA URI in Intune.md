@@ -6,9 +6,8 @@
 ```Powershell
 ./Device/Vendor/MSFT/Accounts/Users/localadmin/Password
 ```
-3. third
-4. Data Type "String"
-5. Value "password"
+3. Data Type "String"
+4. Value "password"
 
 
 ## OMA-URI settings to Add to Local Admin Group
