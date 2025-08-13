@@ -1,6 +1,7 @@
-
+# Connect to Microsoft Graph if not already connected
 Connect-MgGraph -Scopes "Domain.Read.All"
 
+# Set Variable for Directory Roles
 $DirectoryRoles = Get-MgDirectoryRole
 
 # Get privileged role IDs
