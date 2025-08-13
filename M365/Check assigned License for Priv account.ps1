@@ -1,3 +1,6 @@
+
+Connect-MgGraph -Scopes "Domain.Read.All"
+
 $DirectoryRoles = Get-MgDirectoryRole
 
 # Get privileged role IDs
