@@ -1,0 +1,66 @@
+{
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "settingDefinitionId": "com.apple.managedclient.preferences_tags",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "eecaa6ec-ec6c-4b81-b537-f9d66198bb3f"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+        "groupSettingCollectionValue": [
+          {
+            "children": [
+              {
+                "choiceSettingValue": {
+                  "settingValueTemplateReference": {
+                    "settingValueTemplateId": "557d7b5b-ea79-4265-8191-4c1384544678",
+                    "useTemplateDefault": false
+                  },
+                  "value": "com.apple.managedclient.preferences_tags_item_key_0",
+                  "children": []
+                },
+                "settingDefinitionId": "com.apple.managedclient.preferences_tags_item_key",
+                "auditRuleInformation": null,
+                "settingInstanceTemplateReference": {
+                  "settingInstanceTemplateId": "bc8271ee-e7bb-4d8d-ada5-744f451dbb4e"
+                },
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+              },
+              {
+                "settingDefinitionId": "com.apple.managedclient.preferences_tags_item_value",
+                "auditRuleInformation": null,
+                "settingInstanceTemplateReference": null,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                "simpleSettingValue": {
+                  "settingValueTemplateReference": {
+                    "settingValueTemplateId": "31b55639-ff33-4266-b9da-5392fc3df829",
+                    "useTemplateDefault": false
+                  },
+                  "value": "macOS-MDE-Managed",
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+                }
+              }
+            ],
+            "settingValueTemplateReference": null
+          }
+        ]
+      }
+    }
+  ],
+  "name": "MDE - macOS Default EDR Policy",
+  "description": "Created by EmpyreanIT",
+  "templateReference": {
+    "templateDisplayVersion": "Version 1",
+    "templateDisplayName": "Endpoint detection and response",
+    "templateFamily": "endpointSecurityEndpointDetectionAndResponse",
+    "templateId": "a6ff37f6-c841-4264-9249-1ecf793d94ef_1"
+  },
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('c530a5d6-1b1d-4e43-b57b-a04886c24053')/settings",
+  "technologies": "mdm,microsoftSense",
+  "platforms": "macOS"
+}

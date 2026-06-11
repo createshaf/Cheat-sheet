@@ -1,0 +1,716 @@
+{
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+            "useTemplateDefault": false
+          },
+          "value": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall_true",
+          "children": [
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_disableunicastresponsestomulticastbroadcast",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogignoredrules",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmodeipsecsecuredpacketexemption",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogsuccessconnections",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge_true",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalipsecpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_disablestealthmode",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_shielded_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_shielded",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction_0",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_defaultoutboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction_1",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_defaultinboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_globalportsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_allowlocalpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_disableinboundnotifications",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_authappsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablelogdroppedpackets",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_logmaxfilesize",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": 16384,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+              }
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_logfilepath",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "120c5dbe-0c88-46f0-b897-2c996d3e5277",
+                  "useTemplateDefault": false
+                },
+                "value": "%systemroot%\\system32\\LogFiles\\Firewall\\domainfirewall.log",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+              }
+            }
+          ]
+        },
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_domainprofile_enablefirewall",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "7714c373-a19a-4b64-ba6d-2e9db04a7684"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+            "useTemplateDefault": false
+          },
+          "value": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+          "children": [
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge_true",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalipsecpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmodeipsecsecuredpacketexemption",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_shielded_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_shielded",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction_0",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_defaultoutboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogignoredrules",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction_1",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_defaultinboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disableunicastresponsestomulticastbroadcast",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disablestealthmode",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogsuccessconnections",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_allowlocalpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_authappsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_globalportsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablelogdroppedpackets",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_logmaxfilesize",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": 16384,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+              }
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_logfilepath",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "9d55dfae-d55f-4f2a-af03-9a9524f61e76",
+                  "useTemplateDefault": false
+                },
+                "value": "%systemroot%\\system32\\LogFiles\\Firewall\\privatefirewall.log",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+              }
+            }
+          ]
+        },
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "1c14f914-69bb-49f8-af5b-e29173a6ee95"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      }
+    },
+    {
+      "id": "2",
+      "settingInstance": {
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+            "useTemplateDefault": false
+          },
+          "value": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall_true",
+          "children": [
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction_0",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_defaultoutboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_shielded_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_shielded",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction_1",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_defaultinboundaction",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption_true",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmodeipsecsecuredpacketexemption",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogsuccessconnections",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_disablestealthmode",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules_false",
+                "settingValueTemplateReference": null,
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogignoredrules",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_logfilepath",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "%systemroot%\\system32\\LogFiles\\Firewall\\publicfirewall.log",
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue"
+              }
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_disableinboundnotifications",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_authappsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_globalportsallowuserprefmerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge_false",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_allowlocalipsecpolicymerge",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablelogdroppedpackets",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "choiceSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast_true",
+                "children": []
+              },
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_disableunicastresponsestomulticastbroadcast",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+            },
+            {
+              "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_logmaxfilesize",
+              "auditRuleInformation": null,
+              "settingInstanceTemplateReference": null,
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "simpleSettingValue": {
+                "settingValueTemplateReference": {
+                  "settingValueTemplateId": "c38694c7-51a4-4a35-8f64-b10866a04776",
+                  "useTemplateDefault": false
+                },
+                "value": 16384,
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue"
+              }
+            }
+          ]
+        },
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_publicprofile_enablefirewall",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "e2714734-708e-4286-8ae9-d56821e306a3"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      }
+    },
+    {
+      "id": "3",
+      "settingInstance": {
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "f5e48ffe-d924-4ee1-a1a1-677e259952fa",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_audit_objectaccess_auditfilteringplatformconnection_3",
+          "children": []
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditfilteringplatformconnection",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "be9453a7-6348-4112-a49e-ad029d5d3548"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      }
+    },
+    {
+      "id": "4",
+      "settingInstance": {
+        "choiceSettingValue": {
+          "settingValueTemplateReference": {
+            "settingValueTemplateId": "bf48ef86-73e5-4a66-a693-24ff8e4be799",
+            "useTemplateDefault": false
+          },
+          "value": "device_vendor_msft_policy_config_audit_objectaccess_auditfilteringplatformpacketdrop_2",
+          "children": []
+        },
+        "settingDefinitionId": "device_vendor_msft_policy_config_audit_objectaccess_auditfilteringplatformpacketdrop",
+        "auditRuleInformation": null,
+        "settingInstanceTemplateReference": {
+          "settingInstanceTemplateId": "43f5366a-7e27-47a9-be51-d14189d02a17"
+        },
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance"
+      }
+    }
+  ],
+  "name": "Firewall-MDE-Windows-Server-Baseline",
+  "description": "",
+  "templateReference": {
+    "templateDisplayVersion": "Version 1",
+    "templateDisplayName": "Windows Firewall",
+    "templateFamily": "endpointSecurityFirewall",
+    "templateId": "6078910e-d808-4a9f-a51d-1b8a7bacb7c0_1"
+  },
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f584b93f-55bb-469f-ae08-1a29b7385746')/settings",
+  "technologies": "mdm,microsoftSense",
+  "platforms": "windows10"
+}
